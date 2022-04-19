@@ -12,18 +12,21 @@ async function auth(req, res, next) {
             }            
         }
         const payload = verifyPayload(access_token);
-        const user = await prisma.user.findUnique({
+        const findUser = await prisma.user.findUnique({
             where: {
-                id: payload.id,
                 email: payload.email
             }
         })
-        if (!user)
+        if (!findUser) {
             throw {
                 name: "Unauthorized",
                 message: "Need to Login First"
             }
-        req.user = user;
+        }
+        req.user = {
+            id: findUser.id,
+            email: findUser.email
+        };
         next();
     } catch (err) {
         next(err)
