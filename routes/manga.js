@@ -1,10 +1,10 @@
 const express = require('express');
-const Controller = require('../controllers/threadController');
+const Controller = require('../controllers/mangaController');
 const mangaRouter = express.Router();
 const auth = require('../middlewares/authen');
 
-router.get('/', (req, res) => res.redirect('/manga'));
+// mangaRouter.get('/', (req, res) => res.redirect('/manga'));
 
-router.get('/manga', Controller.fetchManga);
+mangaRouter.get('/manga', Controller.fetchManga);
 
 module.exports = mangaRouter

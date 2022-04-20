@@ -1,6 +1,7 @@
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 let baseUrl = "https://kitsu.io/api/edge/manga";
+const axios = require('axios');
 
 class Controller {
     static async fetchManga(req, res, next) {
