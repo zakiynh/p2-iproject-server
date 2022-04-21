@@ -2,6 +2,7 @@ const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 const { passHash, comparePassword } = require('../helpers/bcrypts');
 const { signPayload } = require('../helpers/jwt');
+const nodemailer = require('nodemailer');
 
 class Controller {
     static async signup(req, res, next) {
@@ -20,6 +21,25 @@ class Controller {
                     password: passHash(password, 10)
                 }
             })
+            // let transporter = nodemailer.createTransport({
+            //     service: "hotmail",
+            //     auth: {
+            //         user: "jaki0207@outlook.com",
+            //         pass: "apa2apa22"
+            //     }
+            // });
+            // if (username, email, password) {
+            //     let info = await transporter.sendMail({
+            //         from: 'jaki0207@outlook.com', // sender address
+            //         to: customerEmail, // list of receivers
+            //         subject: "Registration Information", // Subject line
+            //         text: "WELCOME TO THE THREAD", // plain text body
+            //         html: `${temp}
+            //         <h1 style="color:#4D4C7D">Enjoy Your Journet</h1>
+            //         `, // html body
+            //     });
+            //     console.log(info, "success send email");
+            // }
             res.status(201).json({
                 user,
                 message: "User Created",
