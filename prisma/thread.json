@@ -1,0 +1,52 @@
+{
+"Thread": [
+	{
+		"title" : "Thread 1",
+		"content" : "Ini Thread 1",
+		"imgUrl" : "https:\/\/asset.kompas.com\/crops\/ehhP-pUUNXgvfSRoGnoPMPD8G2k=\/0x340:900x940\/750x500\/data\/photo\/2021\/01\/05\/5ff3e333b6fcc.jpg",
+		"createdAt" : "2022-04-19T13:43:15.295Z",
+		"updatedAt" : "2022-04-19T13:43:15.391Z"
+	},
+	{
+		"title" : "Thread 3",
+		"content" : "Ini Thread 3",
+		"imgUrl" : "https:\/\/asset.kompas.com\/crops\/ehhP-pUUNXgvfSRoGnoPMPD8G2k=\/0x340:900x940\/750x500\/data\/photo\/2021\/01\/05\/5ff3e333b6fcc.jpg",
+		"createdAt" : "2022-04-20T16:51:36.298Z",
+		"updatedAt" : "2022-04-20T16:51:36.298Z"
+	},
+	{
+		"title" : "Thread 4",
+		"content" : "Ini Thread 3",
+		"imgUrl" : "https:\/\/asset.kompas.com\/crops\/ehhP-pUUNXgvfSRoGnoPMPD8G2k=\/0x340:900x940\/750x500\/data\/photo\/2021\/01\/05\/5ff3e333b6fcc.jpg",
+		"createdAt" : "2022-04-20T16:51:36.298Z",
+		"updatedAt" : "2022-04-20T16:51:36.298Z"
+	},
+	{
+		"title" : "Thread 2",
+		"content" : "Ini Thread 3",
+		"imgUrl" : "https:\/\/asset.kompas.com\/crops\/ehhP-pUUNXgvfSRoGnoPMPD8G2k=\/0x340:900x940\/750x500\/data\/photo\/2021\/01\/05\/5ff3e333b6fcc.jpg",
+		"createdAt" : "2022-04-20T16:51:36.298Z",
+		"updatedAt" : "2022-04-20T16:51:36.298Z"
+	},
+	{
+		"title" : "Thread 6",
+		"content" : "Ini Thread 3",
+		"imgUrl" : "https:\/\/asset.kompas.com\/crops\/ehhP-pUUNXgvfSRoGnoPMPD8G2k=\/0x340:900x940\/750x500\/data\/photo\/2021\/01\/05\/5ff3e333b6fcc.jpg",
+		"createdAt" : "2022-04-20T16:51:36.298Z",
+		"updatedAt" : "2022-04-20T16:51:36.298Z"
+	},
+	{
+		"title" : "Thread 5",
+		"content" : "Ini Thread 3",
+		"imgUrl" : "https:\/\/asset.kompas.com\/crops\/ehhP-pUUNXgvfSRoGnoPMPD8G2k=\/0x340:900x940\/750x500\/data\/photo\/2021\/01\/05\/5ff3e333b6fcc.jpg",
+		"createdAt" : "2022-04-20T16:51:36.298Z",
+		"updatedAt" : "2022-04-20T16:51:36.298Z"
+	},
+	{
+		"title" : "Thread 4",
+		"content" : "Ini Thread 3",
+		"imgUrl" : "https:\/\/asset.kompas.com\/crops\/ehhP-pUUNXgvfSRoGnoPMPD8G2k=\/0x340:900x940\/750x500\/data\/photo\/2021\/01\/05\/5ff3e333b6fcc.jpg",
+		"createdAt" : "2022-04-20T16:51:36.298Z",
+		"updatedAt" : "2022-04-20T16:51:36.298Z"
+	}
+]}

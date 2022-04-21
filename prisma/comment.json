@@ -1,0 +1,59 @@
+{
+"Comment": [
+	{
+		"comment" : "adfasdf",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T14:11:34.431Z",
+		"updatedAt" : "2022-04-20T14:11:34.432Z"
+	},
+	{
+		"comment" : "testestes",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T14:17:20.687Z",
+		"updatedAt" : "2022-04-20T14:17:20.688Z"
+	},
+	{
+		"comment" : "asdadasds",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T14:24:22.224Z",
+		"updatedAt" : "2022-04-20T14:24:22.224Z"
+	},
+	{
+		"comment" : "asdadasds",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T14:24:27.610Z",
+		"updatedAt" : "2022-04-20T14:24:27.610Z"
+	},
+	{
+		"comment" : "qwerqwer",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T14:26:41.569Z",
+		"updatedAt" : "2022-04-20T14:26:41.570Z"
+	},
+	{
+		"comment" : "cdscasdc",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T14:28:27.015Z",
+		"updatedAt" : "2022-04-20T14:28:27.015Z"
+	},
+	{
+		"comment" : "hitttt",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T14:31:33.392Z",
+		"updatedAt" : "2022-04-20T14:31:33.393Z"
+	},
+	{
+		"comment" : "ini comment ya",
+		"userId" : 1,
+		"threadId" : 1,
+		"createdAt" : "2022-04-20T16:53:26.023Z",
+		"updatedAt" : "2022-04-20T16:53:26.024Z"
+	}
+]}
